@@ -13,19 +13,33 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
+}
+
+.movieImage{
+  margin: auto;
+  height:350;
+  width:250px;
+  object-fit: contain;
+  background-size: cover;
+}
+
+.movie-slide {
+  padding: 0 10px; /* Ajoute un petit espace à gauche et à droite */
+}
+
+.movie-content {
+  border: 1px solid #ccc; /* Ajoute une bordure autour de chaque film */
+}
+
+.movie-details {
+  padding: 10px; /* Ajoute un peu d'espace à l'intérieur de chaque film */
+}
+
+.moviesDiv{
+  display: grid;
+  border: 1px solid black;
 }
 
 @keyframes App-logo-spin {
